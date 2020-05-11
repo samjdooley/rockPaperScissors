@@ -1,0 +1,26 @@
+.choice {
+    background-color: ;
+    border-radius: 30px;
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+}
+
+#container {
+    padding: 50px;
+}
+
+button:hover,
+button:focus {
+    background: #0053ba;
+    color: white;
+}
+
+button:focus {
+    outline: 1px solid #fff;
+    outline-offset: -4px;
+}
+
+button:active {
+    transform: scale(0.99);
+}
