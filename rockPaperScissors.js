@@ -70,7 +70,7 @@ buttons.forEach((button) => {
     }
     if (playerScore === 5 || computerScore === 5) {
       if(playerScore === 5) { 
-        resultDOM.textContent += 'You are the winner'
+        alert('You are the winner')
         playerScore = 0;
         computerScore = 0;
         computerScoreDOM.textContent = `Computer score: ${computerScore}`;
